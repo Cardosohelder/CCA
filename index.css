@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body{
+    height: 2000px /* definir esta altura para ter scroll - com conteúdo depois apagar*/
+}
+
+header img{ /*formatação logotipo */
+    width: 200px; /*largura imagem logotipo */
+    border-radius: 5%; 
+    box-shadow: none;
+    margin-top: 20px; /*acrescentar margem para empurrar a imagem para baixo - colocoar px e não % para o logotipo manter o tamanho*/
+    margin-bottom: 10px;
+}
+
+header{
+    text-align: center;
+    background-color: rgba(28, 95, 240, 0.664);
+    background: linear-gradient(to right, rgb(124, 137, 153) 0%, rgb(35, 62, 94) 50%,
+     rgb(175, 195, 219) 100%);
+}
+
+header h1, /*muda duas headers h1 e h3 de uma vez na configuração CSS*/
+header h3
+
+{
+    color: white;
+    font-family: "Russo One", serif;
+    font-weight: 100;
+    font-style: normal;
+} 
+
+header h1{
+    font-size: 40px;
+    text-shadow: 5px 5px 5px rgb(7, 7, 7);
+    margin-top: 30px;
+}
+
+.redes-sociais{
+        width: 28px;
+        border-radius: 20%;
+        box-shadow: none;
+}
+
+header a{
+    text-decoration: none; /*tirar sublinhado das ligações*/
+}
+
+.navbar{ /*alterar a cor da navbar*/
+    background: linear-gradient(to top, rgb(203, 202, 211) 10%, white 100%, rgb(220, 220, 226) 100%, rgb(245, 243, 243) 100%);
+    opacity: 70%; /*opacidade da barra*/
+}
+
+.nav-link{ /*alterar os botões*/
+    margin-left: 20px;
+    background-color: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(51, 50, 50);
+    width: 90px;
+    color: rgb(6, 3, 22);
+    text-align: center;
+}
+
+/* .imagem-apresentacao{ /*criação de um espaço
+    height: 900px;
+    background-image: url(../img/baia_seixal.jpg);  >>> imagem background
+    width: 100%;
+    text-align: center;
+    background-size: cover; 
+}*/
+
+.texto-apresentacao{
+    color: white;
+    font-family: "Russo One", serif;
+    font-weight: 100;
+    font-style: normal;
+    padding-top: 100px;
+}
+
+.carousel{
+    margin-top: 5x;
+}
+
+/*.imagem-apresentacao{
+    margin-top: 10px;
+} */
+
+/* #historia{
+ margin-to: 50px;
+}*/
+
+.card{
+    width 100%;
+    padding-top: 100px;
+    border-style: none;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.sec-historia,
+.sec-sobre,
+.sec-canoagem
+
+{
+    margin-top: 50px;
+}
